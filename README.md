@@ -52,5 +52,12 @@ Criação dos objetos transacionais para as classes Person e Phone reponsaveis p
 
 
 
+<p style="background-color: #ff6347; border-radius: 3px;">
+<strong>SEXTO COMMIT -> Introduzindo o metodo GET findByID ao projeto
+</strong><br><br>
+<strong>Parte 9:</strong><br>
+Introduzindo o metodo GET findByID ao projeto e criando excessões caso o usuário não encontre o ID solicitado. Uso da class Optional com o método orElseThrow.<br>
+<br></p>
+
 
 

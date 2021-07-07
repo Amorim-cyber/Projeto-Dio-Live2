@@ -3,6 +3,7 @@ package com.digitalinnovation.live2.service;
 import com.digitalinnovation.live2.dto.request.PersonDTO;
 import com.digitalinnovation.live2.dto.response.MessageResponseDTO;
 import com.digitalinnovation.live2.entity.Person;
+import com.digitalinnovation.live2.exception.PersonNotFoundException;
 import com.digitalinnovation.live2.mapper.PersonMapper;
 import com.digitalinnovation.live2.repository.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +11,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
@@ -39,5 +41,11 @@ public class PersonService {
         List<Person> allPeople = personRepository.findAll();
         return allPeople.stream()
                 .map(personMapper::toDTO).collect(Collectors.toList());
+    }
+
+    public PersonDTO findById(Long id) throws PersonNotFoundException {
+       Person person = personRepository.findById(id).orElseThrow(() ->new PersonNotFoundException(id));
+
+        return personMapper.toDTO(person);
     }
 }
