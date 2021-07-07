@@ -42,3 +42,15 @@ Conexão das classes ao banco H2, criado um repository e um metodo post para a c
 Implementação do metodo post, utilizei a documentação do swagger para realizar os testes. Criação da classe service para as regras de negócio do projeto. Aprendi sobre a anotação @ResponseStatus. Teste do projeto no Heroku.<br>
 <br></p>
 
+
+<p style="background-color: #e6e6fa; border-radius: 3px;">
+<strong>QUINTO COMMIT -> Criação de objetos Transacionais + metodo GET listAll </strong><br><br>
+<strong>Parte 7:</strong><br>
+Criação dos objetos transacionais para as classes Person e Phone reponsaveis por receber as APIs, preservando as entidades do modelo. Aprendi sobre anotações para validações de campos (@NotEmpty,@Size,@Valid,etc).<br>
+<br><strong>Parte 8:</strong><br>Criando mappers com a api mapstruct, um convertor de objetos trasacionais para objetos do modelo e vice versa. Foi criado a funcionalidade GET listAll. <br>
+<br></p>
+
+
+
+
+
