@@ -61,3 +61,10 @@ Introduzindo o metodo GET findByID ao projeto e criando excessões caso o usuár
 
 
 
+<p style="background-color: #40e0d0; border-radius: 3px;">
+<strong>SETIMO COMMIT -> Colocando os métodos PUT e DELETE
+</strong><br><br>
+<strong>Parte 10:</strong><br>
+Implementação do metodo DELETE e do metodo PUT ao projeto. Foi criada uma nova branch(update_feature). Encapsulamento de métodos.<br>
+<br></p>
+
