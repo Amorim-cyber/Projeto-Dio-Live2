@@ -1,15 +1,28 @@
 package com.digitalinnovation.live2.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import com.digitalinnovation.live2.dto.response.MessageResponseDTO;
+import com.digitalinnovation.live2.entity.Person;
+import com.digitalinnovation.live2.repository.PersonRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("api/v1/people")
 public class PersonController {
 
-    @GetMapping
-    public String getBook(){
-        return "API Test!";
+    private PersonRepository personRepository;
+
+    @Autowired
+    public PersonController(PersonRepository personRepository){
+        this.personRepository = personRepository;
+    }
+
+    @PostMapping
+    public MessageResponseDTO createPerson(@RequestBody Person person){
+        Person savedPerson = personRepository.save(person);
+        return MessageResponseDTO
+                .builder()
+                .message("Created person with ID "+savedPerson.getId())
+                .build();
     }
 }

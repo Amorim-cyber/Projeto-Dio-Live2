@@ -27,3 +27,9 @@ Criando o projeto inicial e deixando-o na cloud com o Heroku.<br>
 Montei as classes entidades e mapeie elas conforme a regra de negócio do projeto, aprendi a anotação @Column e as estratégias utilizadas no relacionamento entre a classe Person e Phone.<br>
 <br></p>
 
+
+<p style="background-color: #f5f5dc; border-radius: 3px;">
+<strong>TERCEIRO COMMIT -> Conexão ao banco de dados, criado metodo post para Person</strong><br><br>
+<strong>Parte 5:</strong><br>
+Conexão das classes ao banco H2, criado um repository e um metodo post para a classe "person".<br>
+<br></p>
