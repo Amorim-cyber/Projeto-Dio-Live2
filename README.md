@@ -129,3 +129,17 @@ Implementação do metodo DELETE e do metodo PUT ao projeto. Foi criada uma nova
 <strong>Parte 11:</strong><br>
 Aprendi a realizar merges de branchs no github. O merge realizado foi entre a branch main e a update_feature contido no projeto. Também aprendi mais a dar git pull no projeto alterado. Introdução a teste unitários.<br>
 <br></p>
+
+
+
+<p style="background-color: #fafad2; border-radius: 3px;">
+<strong>NONO COMMIT -> Finalizando o projeto
+</strong><br><br>
+<strong>Parte 12:</strong><br>
+Aprendi a realizar merges de branchs no github. O merge realizado foi entre a branch main e a update_feature contido no projeto. Também aprendi mais a dar git pull no projeto alterado. Introdução a teste unitários.<br>
+<br></p>
+
+
+
+ FIM DA TRILHA 
+
