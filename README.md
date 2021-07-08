@@ -10,6 +10,8 @@
 >
 > **Link de acesso heroku:** https://people-live-2.herokuapp.com/
 >
+> **Link do repositório da live:** https://github.com/rpeleias/personapi_digital_innovation_one
+>
 > Segue abaixo o README da live para mais informações
 
 Nesta live coding vamos desenvolver um pequeno sistema para o gerenciamento de pessoas de uma empresa através de uma API REST, criada com o Spring Boot.
